@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div className='flex gap-28 px-28 py-20 w-[77%] mx-auto' id='about'>
-        <Image src='/image2.jpg' alt='' width={250} height={50} className='' />
+        <Image src='/image2.jpg' alt='' width={250} height={50} />
         <div className='space-y-8 font-serif'>
           <h1 className='text-4xl font-bold'>About Me</h1>
           <p>
