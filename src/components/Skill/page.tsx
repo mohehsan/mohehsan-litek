@@ -4,7 +4,8 @@ import { IoIosSchool } from 'react-icons/io'
 
 export default function Skill() {
   return (
-    <div className='bg-gray-500 mb-8'>
+    <div>
+      <div className='bg-gray-500 mb-8'>
         <div className='flex justify-between w-[65%] mx-auto py-10'>
           <div className='space-y-3'>
             <FaCode className="text-7xl mx-auto" />
@@ -20,5 +21,6 @@ export default function Skill() {
           </div>
         </div>
       </div>
+    </div>
   )
 }
